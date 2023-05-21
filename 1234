@@ -1,0 +1,12 @@
+local whitelisted = {
+"ixtIxtMkasfnahtTHs",
+"PersonalLawyer"
+
+}
+
+for i,v in pairs(whitelisted) do
+if game.Players.LocalPlayer.Name == v then
+print('hi')
+end
+
+end
